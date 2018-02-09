@@ -1,15 +1,2 @@
-vagrant/.vagrant
 .idea
-node_modules
-dist
 .tmp
-bower_components
-synced_folder
-uploads
-vendor/
-www/
-project
-yarn-error.log
-*.css.map
-src/src
-/src/views/pages/
