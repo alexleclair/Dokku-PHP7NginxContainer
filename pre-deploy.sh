@@ -5,7 +5,7 @@ if [ -d "/storage/" ]; then
   ln -s /storage/ /app/www
 fi
 
-cd /app/src/
+cd /app/www/
 
 composer install
 composer update
