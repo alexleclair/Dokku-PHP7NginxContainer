@@ -19,7 +19,7 @@ On your dokku instance:
 - Create a directory that will contain your code: `mkdir /home/dokku/my-new-app/public_html`
 - Link that directory to the `/storage` directory on your container: `dokku storage:mount my-new-app /home/dokku/my-new-app/public_html:/storage`
 - Add in your files to `/home/dokku/my-new-app/public_html` (or, simply `echo "<?php echo 'Hello from PHP';" > /home/dokku/my-new-app/public_html/index.php`)
-- Build the app from this repo's tarball: `tar:from my-new-app https://github.com/alexleclair/Dokku-PHP7NginxContainer/archive/master.tar.gz`
+- Build the app from this repo's tarball: `dokku tar:from my-new-app https://github.com/alexleclair/Dokku-PHP7NginxContainer/archive/master.tar.gz`
 
 And voilà!
 
