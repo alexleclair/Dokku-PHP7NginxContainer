@@ -1,0 +1,16 @@
+{
+    "require": {
+    	"php": "^7.0.0",
+  		"ext-mbstring" : "*",
+  		"ext-gd" : "*",
+  		"ext-mysqli" : "*",
+  		"ext-intl":"*",
+  		"ext-imagick":"*"
+    },
+    "extra": {
+		"heroku": {
+			"document-root": "www",
+			"index-document": "index.php"
+		}
+	}
+}
