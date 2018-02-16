@@ -7,7 +7,7 @@ So, you're running a bunch of dokku apps on a server, and have to deal with a le
 This repository is just the barebones of a PHP7 & Nginx setup, and it looks for a `/storage` mounted drive. It then serves from that directory.
 Any changes made in there will be reflected on your container.
 
-## But this is now what Dokku is for!!!!
+## But this is not what Dokku is for!!!!
 I know. I hate it too. But sometimes, when moving fast, having this kind of solution works okay. Just don't forget to bring your project into a real dev workflow, okay?
 
 ## How to use it
